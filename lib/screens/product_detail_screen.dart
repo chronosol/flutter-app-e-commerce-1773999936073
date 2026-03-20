@@ -24,7 +24,7 @@ class ProductDetailScreen extends StatelessWidget {
               children: [
                 Text(product.name, style: Theme.of(context).textTheme.headline5),
                 const SizedBox(height: 8.0),
-                Text('2${product.price}', style: Theme.of(context).textTheme.headline6),
+                Text('${product.price}', style: Theme.of(context).textTheme.headline6),
                 const SizedBox(height: 8.0),
                 Text(product.description),
               ],

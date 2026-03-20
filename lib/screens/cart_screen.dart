@@ -20,7 +20,7 @@ class CartScreen extends StatelessWidget {
                 final item = cartItems[index];
                 return ListTile(
                   title: Text(item.name),
-                  subtitle: Text('2${item.price.toStringAsFixed(2)}'),
+                  subtitle: Text('${item.price.toStringAsFixed(2)}'),
                 );
               },
             ),

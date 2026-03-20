@@ -18,7 +18,7 @@ class ProductListScreen extends StatelessWidget {
           final product = products[index];
           return ListTile(
             title: Text(product.name),
-            subtitle: Text('2${product.price.toStringAsFixed(2)}'),
+            subtitle: Text('${product.price.toStringAsFixed(2)}'),
             onTap: () {
               Navigator.push(
                 context,
